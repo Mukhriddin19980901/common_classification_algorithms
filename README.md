@@ -105,7 +105,7 @@ Extra Trees are utilized in various machine learning tasks, especially when redu
 
 5. ***K-Nearest Neighbors (KNN)*** is a simple yet powerful supervised learning algorithm used for both classification and regression tasks.
 
-<img src="https://github.com/Mukhriddin19980901/common_classification_algorithms/blob/main/images/KNN.png" width="700" height='300' />
+<img src="https://github.com/Mukhriddin19980901/common_classification_algorithms/blob/main/images/KNN.png" width="700" height='500' />
 
 **Here's a breakdown of how KNN works:**
 
