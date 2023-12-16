@@ -103,4 +103,30 @@ AdaBoost and its variations are used in a range of applications, including objec
 However, since Extra Trees introduce more randomness than Random Forests, they might not always perform better. In scenarios where feature importance interpretation is crucial, Random Forests might provide better insights as they maintain some level of feature selection based on importance.
 Extra Trees are utilized in various machine learning tasks, especially when reducing overfitting and computational efficiency are important factors. They're applied in fields such as anomaly detection, feature selection, and classification tasks in both academia and industry settings.
 
-5. ***KNN*** 
+5. ***K-Nearest Neighbors (KNN)*** is a simple yet powerful supervised learning algorithm used for both classification and regression tasks.
+
+<img src="https://github.com/Mukhriddin19980901/common_classification_algorithms/blob/main/images/KNN.png" width="700" height='300' />
+
+**Here's a breakdown of how KNN works:**
+
+*Instance-Based Learning:* KNN is an instance-based or lazy learning algorithm. It doesn't explicitly learn a model during the training phase. Instead, it memorizes the entire training dataset and makes predictions for new instances based on their similarity to known instances in the training set.
+
+*Distance-Based Classification:* For a new data point, KNN identifies the K nearest neighbors in the training data based on a chosen distance metric (e.g., Euclidean distance, Manhattan distance). The 'K' in KNN refers to the number of neighbors considered.
+
+*Majority Voting (Classification) or Averaging (Regression):* For classification tasks, KNN performs a majority vote among the K neighbors to assign the class label of the new instance. In regression tasks, it takes the average of the K nearest neighbors' values to predict a continuous output.
+
+*Parameter Selection:* The choice of 'K' is a crucial parameter in KNN. A smaller 'K' can lead to more flexible and potentially noisy predictions, while a larger 'K' can make the model smoother but might miss local patterns.
+
+**KNN's characteristics and considerations include:**
+
+-Non-Parametric: KNN doesn't assume any underlying distribution of the data. It directly uses the data for prediction.
+
+-Sensitive to Distance Metrics: The choice of distance metric can significantly impact KNN's performance.
+
+-Feature Scaling: Since KNN uses distance measures, it's essential to scale the features to have a similar range to prevent features with larger scales from dominating the distance calculation.
+
+-Computational Cost: Predicting new instances in KNN involves computing distances between the new instance and all training instances, which can be computationally expensive for large datasets.
+
+KNN is used in various applications such as recommendation systems, pattern recognition, and anomaly detection. It's relatively easy to understand and implement, making it a good starting point for many classification and regression problems.
+
+Codes for above mentioned algorithms are available on this page
