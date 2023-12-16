@@ -33,7 +33,7 @@ Decision trees are versatile and form the basis for more complex algorithms in m
 
 2 ***Random Forest*** is an ensemble learning method based on decision trees. It constructs multiple decision trees during training and outputs the class that is the mode of the classes (classification) or mean prediction (regression) of the individual trees.
 
-<img src="https://github.com/Mukhriddin19980901/common_classification_algorithms/blob/main/images/RandomForest.png" width="700" height='300' />
+<img src="https://github.com/Mukhriddin19980901/common_classification_algorithms/blob/main/images/RandomForest.png" width="700" height='500' />
 
 **Here's how Random Forest works:**
 
